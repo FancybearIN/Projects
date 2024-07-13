@@ -19,12 +19,17 @@ This repository contains various Bash scripts to automate the usage of popular s
 
 ### Naabu Automation
 **Author: Sapna (GNEC, IT)**
+**Author: khushpreeet (GNE. cse)**
 
 ### Rustscan Automation
 **Author: Rupinder (GNEC, IT)**
+**Author: Harinder (GNE. cse)**
+
 
 ### FFUF Automation
 **Author: Tarun (GNEC, IT)**
+**Author: Harjot (GNE. cse)**
+
 
 ### Hydra Automation
 **Author: Skashi (GNEC, IT)**
