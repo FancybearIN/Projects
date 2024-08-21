@@ -91,6 +91,11 @@ Select the type of scan you want to perform:
 1. Directory Scan
 2. DNS Subdomain Scan
 3. Virtual Host Scan
+4. Fuzzing Mode
+5. GCS Bucket Enumeration
+6. AWS S3 Bucket Enumeration
+7. TFTP Enumeration
+8. Show Version
 ------------------------------------------------"
 
 read -p "Option you selected ==> " option
@@ -111,11 +116,32 @@ case "$option" in
         echo "Performing Virtual Host Scan..."
         gobuster vhost -u "$target" -w "$wordlist"
         ;;
+    4)
+        read -p "Enter the FUZZ keyword URL: " fuzz_url
+        echo "Performing Fuzzing Mode..."
+        gobuster fuzz -u "$fuzz_url" -w "$wordlist"
+        ;;
+    5)
+        echo "Performing GCS Bucket Enumeration..."
+        gobuster gcs -u "$target" -w "$wordlist"
+        ;;
+    6)
+        echo "Performing AWS S3 Bucket Enumeration..."
+        gobuster s3 -u "$target" -w "$wordlist"
+        ;;
+    7)
+        echo "Performing TFTP Enumeration..."
+        gobuster tftp -u "$target" -w "$wordlist"
+        ;;
+    8)
+        echo "Showing Gobuster Version..."
+        gobuster version
+        ;;
     *)
         echo "Invalid option selected."
         ;;
 esac
-```
+
 
 ### Hashcat Automation
 devash => (cse )
