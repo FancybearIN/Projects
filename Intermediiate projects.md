@@ -1,12 +1,16 @@
 Here is a Bash script to automate Nmap scans with options for stealth scan, aggressive scan, all port scan, and more:
 harsh => gndec (cse)
+
+group 1
+manjeet keshav 
+
 ```bash
 #!/bin/bash
 
 echo "Let's perform an Nmap scan..."
 
 echo "-----------------------------------------------
-Select the type of scan you want to perform:
+Selecap -sS "$targett the type of scan you want to perform:
 1. Stealth Scan (SYN Scan)
 2. Aggressive Scan
 3. All Port Scan

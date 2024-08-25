@@ -6,24 +6,30 @@ This repository contains various Bash scripts to automate the usage of popular s
 ## Scripts
 
 ### Nmap Automation
+group 1
 **Author: Harsh (GNEC, CSE)**
 
 ### Gobuster Automation
 **Author: Jaskaran (GNEC, CSE)**
+group 2
 
 ### Hashcat Automation
 **Author: Devash (GNEC, CSE)**
+group 3
 
 ### John the Ripper Automation
 **Author: Harman (GNEC, CSE)**
+group 4
 
 ### Naabu Automation
 **Author: Sapna (GNEC, IT)**
 **Author: khushpreeet (GNE. cse)**
+group 5
 
 ### Rustscan Automation
 **Author: Rupinder (GNEC, IT)**
 **Author: Harinder (GNE. cse)**
+group 6
 
 
 ### FFUF Automation
